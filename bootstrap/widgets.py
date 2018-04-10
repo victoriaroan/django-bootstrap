@@ -189,9 +189,6 @@ class EmailInput (TextInput):
 class NumberInput (TextInput):
     input_type = 'number'
 
-class FileInput (BootstrapWidget, forms.FileInput):
-    """ Bootstrap version of ``forms.FileInput`` """
-    css_classes = []
 
 class ModelWidgets (collections.Mapping):
 
